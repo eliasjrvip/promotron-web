@@ -21,7 +21,7 @@
     "start": "react-scripts start",
     "prebuild": "npm install -g serve",
     "build": "react-scripts build",
-    "postbuild": "serve -s build -l 4000",
+    "postbuild": "serve -s build -l 8080",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
