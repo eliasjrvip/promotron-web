@@ -18,7 +18,7 @@
     "victory": "^35.0.9"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build -l 8080",
     "prebuild": "npm install -g serve",
     "build": "react-scripts build",
     "run": "serve -s build -l 8080",
